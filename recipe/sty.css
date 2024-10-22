@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-x: none;
+    background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% );
+}
+.navlist{
+    background-color: rgba(107, 107, 184, 0.826);
+    width: 100vw;
+    height: 60px;
+}
+#unlist{
+    width: 100vw;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    overflow-x: none;
+}
+#para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: beige;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.navflex{
+    display: flex;
+    gap: 10%;
+}
+.footerblock{
+    text-align: center;
+    background-color: rgba(129, 129, 212, 0.855);
+}
+.contentbox{
+    width: 55%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    box-shadow: 3px 3px rgb(196, 132, 132), -1em 0 .4em rgba(137, 137, 160, 0.771);
+}
+#items1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 330px;
+}
+#items2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+#gulab{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.2s linear 0s;
+}
+#gulab:hover{
+    transform: scale(1.1);
+}
+#barfii{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    transition: all 0.2s linear 0s;
+}
+#barfii:hover{
+    transform: scale(1.1);
+}
+.item1{
+    text-shadow: 1px 1px 2px pink;
+}
+.item21{
+    text-shadow: 1px 1px 2px pink;
+}
+.gulab .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.barfi .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.Gulu .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
